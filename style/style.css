@@ -1,0 +1,96 @@
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  background-color: #FCFCFC;
+  margin: 0;
+}
+ul.header {
+	text-align: center;
+background-color: #111;
+padding: 0;
+}
+ul.header li {
+  display: inline;
+  list-style-type: none;
+  margin: 0;
+}
+ul.header li a {
+  color: #FFF;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 1vh;
+  display: inline-block;
+}
+.content {
+  padding: 20px;
+  padding: 1vw;
+}
+.content h2 {
+  padding: 0;
+  margin: 0;
+}
+.content li {
+  margin-bottom: 10px;
+}
+.artistsSearch {
+	height: 60px;
+	font-size: 40px;
+	color: #09F;
+	text-align: center;
+	border: none;
+	border-bottom: 1px solid;
+	margin: auto;
+	display: block;
+}
+.resultsWrapper {
+	display: block;
+	width: 90%;
+	font-size: 20px;
+	margin: auto;
+}
+.result {
+	cursor: pointer;
+	padding: 1vh 1vw;
+}
+.result:nth-of-type(1) {
+	padding-top: 2vh;
+}
+.result:hover {
+	background-color: #f0f8ff;
+}
+.active {
+  background-color: #0099FF;
+}
+.center {
+	text-align: center;
+}
+.upper {
+	text-transform: uppercase;
+}
+.profile {
+	border-radius: 50%;
+	height: 60px;
+	width: 60px;
+	padding: 1vh 3vw;
+	background-size: cover;
+	background-position: 50% 50%;
+	background-repeat: no-repeat
+}
+.name {
+	display: inline-block;
+	line-height: 60px;
+}
+.favorite {
+	line-height: 60px;
+}
+.loginWrapper {
+	text-align: center;
+}
+.loginInputWrapper {
+	padding-bottom: 20px;
+}
+.loginInputWrapper:nth-of-type(1) {
+	padding-top: 20px;
+}
+.loginInput {
+	padding: 0.5vh 1vw;
+}
